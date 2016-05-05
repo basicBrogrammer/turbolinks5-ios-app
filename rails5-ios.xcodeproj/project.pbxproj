@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		664552081CDBE1D800C7D4A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664552071CDBE1D800C7D4A3 /* AppDelegate.swift */; };
+		6645520A1CDBE1D800C7D4A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664552091CDBE1D800C7D4A3 /* ViewController.swift */; };
+		6645520D1CDBE1D800C7D4A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6645520B1CDBE1D800C7D4A3 /* Main.storyboard */; };
+		6645520F1CDBE1D800C7D4A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6645520E1CDBE1D800C7D4A3 /* Assets.xcassets */; };
+		664552121CDBE1D800C7D4A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 664552101CDBE1D800C7D4A3 /* LaunchScreen.storyboard */; };
+		6645521D1CDBE1D800C7D4A3 /* rails5_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6645521C1CDBE1D800C7D4A3 /* rails5_iosTests.swift */; };
+		664552281CDBE1D800C7D4A3 /* rails5_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664552271CDBE1D800C7D4A3 /* rails5_iosUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		664552191CDBE1D800C7D4A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 664551FC1CDBE1D800C7D4A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 664552031CDBE1D800C7D4A3;
+			remoteInfo = "rails5-ios";
+		};
+		664552241CDBE1D800C7D4A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 664551FC1CDBE1D800C7D4A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 664552031CDBE1D800C7D4A3;
+			remoteInfo = "rails5-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		664552041CDBE1D800C7D4A3 /* rails5-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rails5-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		664552071CDBE1D800C7D4A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		664552091CDBE1D800C7D4A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6645520C1CDBE1D800C7D4A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6645520E1CDBE1D800C7D4A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		664552111CDBE1D800C7D4A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		664552131CDBE1D800C7D4A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		664552181CDBE1D800C7D4A3 /* rails5-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "rails5-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6645521C1CDBE1D800C7D4A3 /* rails5_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rails5_iosTests.swift; sourceTree = "<group>"; };
+		6645521E1CDBE1D800C7D4A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		664552231CDBE1D800C7D4A3 /* rails5-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "rails5-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		664552271CDBE1D800C7D4A3 /* rails5_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rails5_iosUITests.swift; sourceTree = "<group>"; };
+		664552291CDBE1D800C7D4A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		664552011CDBE1D800C7D4A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		664552151CDBE1D800C7D4A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		664552201CDBE1D800C7D4A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		664551FB1CDBE1D800C7D4A3 = {
+			isa = PBXGroup;
+			children = (
+				664552061CDBE1D800C7D4A3 /* rails5-ios */,
+				6645521B1CDBE1D800C7D4A3 /* rails5-iosTests */,
+				664552261CDBE1D800C7D4A3 /* rails5-iosUITests */,
+				664552051CDBE1D800C7D4A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		664552051CDBE1D800C7D4A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				664552041CDBE1D800C7D4A3 /* rails5-ios.app */,
+				664552181CDBE1D800C7D4A3 /* rails5-iosTests.xctest */,
+				664552231CDBE1D800C7D4A3 /* rails5-iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		664552061CDBE1D800C7D4A3 /* rails5-ios */ = {
+			isa = PBXGroup;
+			children = (
+				664552071CDBE1D800C7D4A3 /* AppDelegate.swift */,
+				664552091CDBE1D800C7D4A3 /* ViewController.swift */,
+				6645520B1CDBE1D800C7D4A3 /* Main.storyboard */,
+				6645520E1CDBE1D800C7D4A3 /* Assets.xcassets */,
+				664552101CDBE1D800C7D4A3 /* LaunchScreen.storyboard */,
+				664552131CDBE1D800C7D4A3 /* Info.plist */,
+			);
+			path = "rails5-ios";
+			sourceTree = "<group>";
+		};
+		6645521B1CDBE1D800C7D4A3 /* rails5-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				6645521C1CDBE1D800C7D4A3 /* rails5_iosTests.swift */,
+				6645521E1CDBE1D800C7D4A3 /* Info.plist */,
+			);
+			path = "rails5-iosTests";
+			sourceTree = "<group>";
+		};
+		664552261CDBE1D800C7D4A3 /* rails5-iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				664552271CDBE1D800C7D4A3 /* rails5_iosUITests.swift */,
+				664552291CDBE1D800C7D4A3 /* Info.plist */,
+			);
+			path = "rails5-iosUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		664552031CDBE1D800C7D4A3 /* rails5-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6645522C1CDBE1D800C7D4A3 /* Build configuration list for PBXNativeTarget "rails5-ios" */;
+			buildPhases = (
+				664552001CDBE1D800C7D4A3 /* Sources */,
+				664552011CDBE1D800C7D4A3 /* Frameworks */,
+				664552021CDBE1D800C7D4A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "rails5-ios";
+			productName = "rails5-ios";
+			productReference = 664552041CDBE1D800C7D4A3 /* rails5-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		664552171CDBE1D800C7D4A3 /* rails5-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6645522F1CDBE1D800C7D4A3 /* Build configuration list for PBXNativeTarget "rails5-iosTests" */;
+			buildPhases = (
+				664552141CDBE1D800C7D4A3 /* Sources */,
+				664552151CDBE1D800C7D4A3 /* Frameworks */,
+				664552161CDBE1D800C7D4A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6645521A1CDBE1D800C7D4A3 /* PBXTargetDependency */,
+			);
+			name = "rails5-iosTests";
+			productName = "rails5-iosTests";
+			productReference = 664552181CDBE1D800C7D4A3 /* rails5-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		664552221CDBE1D800C7D4A3 /* rails5-iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 664552321CDBE1D800C7D4A3 /* Build configuration list for PBXNativeTarget "rails5-iosUITests" */;
+			buildPhases = (
+				6645521F1CDBE1D800C7D4A3 /* Sources */,
+				664552201CDBE1D800C7D4A3 /* Frameworks */,
+				664552211CDBE1D800C7D4A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				664552251CDBE1D800C7D4A3 /* PBXTargetDependency */,
+			);
+			name = "rails5-iosUITests";
+			productName = "rails5-iosUITests";
+			productReference = 664552231CDBE1D800C7D4A3 /* rails5-iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		664551FC1CDBE1D800C7D4A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Jeremy Ward";
+				TargetAttributes = {
+					664552031CDBE1D800C7D4A3 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 2L2W5M656V;
+					};
+					664552171CDBE1D800C7D4A3 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 2L2W5M656V;
+						TestTargetID = 664552031CDBE1D800C7D4A3;
+					};
+					664552221CDBE1D800C7D4A3 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 2L2W5M656V;
+						TestTargetID = 664552031CDBE1D800C7D4A3;
+					};
+				};
+			};
+			buildConfigurationList = 664551FF1CDBE1D800C7D4A3 /* Build configuration list for PBXProject "rails5-ios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 664551FB1CDBE1D800C7D4A3;
+			productRefGroup = 664552051CDBE1D800C7D4A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				664552031CDBE1D800C7D4A3 /* rails5-ios */,
+				664552171CDBE1D800C7D4A3 /* rails5-iosTests */,
+				664552221CDBE1D800C7D4A3 /* rails5-iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		664552021CDBE1D800C7D4A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				664552121CDBE1D800C7D4A3 /* LaunchScreen.storyboard in Resources */,
+				6645520F1CDBE1D800C7D4A3 /* Assets.xcassets in Resources */,
+				6645520D1CDBE1D800C7D4A3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		664552161CDBE1D800C7D4A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		664552211CDBE1D800C7D4A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		664552001CDBE1D800C7D4A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6645520A1CDBE1D800C7D4A3 /* ViewController.swift in Sources */,
+				664552081CDBE1D800C7D4A3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		664552141CDBE1D800C7D4A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6645521D1CDBE1D800C7D4A3 /* rails5_iosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6645521F1CDBE1D800C7D4A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				664552281CDBE1D800C7D4A3 /* rails5_iosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6645521A1CDBE1D800C7D4A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 664552031CDBE1D800C7D4A3 /* rails5-ios */;
+			targetProxy = 664552191CDBE1D800C7D4A3 /* PBXContainerItemProxy */;
+		};
+		664552251CDBE1D800C7D4A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 664552031CDBE1D800C7D4A3 /* rails5-ios */;
+			targetProxy = 664552241CDBE1D800C7D4A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6645520B1CDBE1D800C7D4A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6645520C1CDBE1D800C7D4A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		664552101CDBE1D800C7D4A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				664552111CDBE1D800C7D4A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6645522A1CDBE1D800C7D4A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6645522B1CDBE1D800C7D4A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6645522D1CDBE1D800C7D4A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "rails5-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "weDemBoyz.rails5-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6645522E1CDBE1D800C7D4A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "rails5-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "weDemBoyz.rails5-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		664552301CDBE1D800C7D4A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "rails5-iosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "weDemBoyz.rails5-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rails5-ios.app/rails5-ios";
+			};
+			name = Debug;
+		};
+		664552311CDBE1D800C7D4A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "rails5-iosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "weDemBoyz.rails5-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rails5-ios.app/rails5-ios";
+			};
+			name = Release;
+		};
+		664552331CDBE1D800C7D4A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "rails5-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "weDemBoyz.rails5-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "rails5-ios";
+			};
+			name = Debug;
+		};
+		664552341CDBE1D800C7D4A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "rails5-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "weDemBoyz.rails5-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "rails5-ios";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		664551FF1CDBE1D800C7D4A3 /* Build configuration list for PBXProject "rails5-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6645522A1CDBE1D800C7D4A3 /* Debug */,
+				6645522B1CDBE1D800C7D4A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6645522C1CDBE1D800C7D4A3 /* Build configuration list for PBXNativeTarget "rails5-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6645522D1CDBE1D800C7D4A3 /* Debug */,
+				6645522E1CDBE1D800C7D4A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6645522F1CDBE1D800C7D4A3 /* Build configuration list for PBXNativeTarget "rails5-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				664552301CDBE1D800C7D4A3 /* Debug */,
+				664552311CDBE1D800C7D4A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		664552321CDBE1D800C7D4A3 /* Build configuration list for PBXNativeTarget "rails5-iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				664552331CDBE1D800C7D4A3 /* Debug */,
+				664552341CDBE1D800C7D4A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 664551FC1CDBE1D800C7D4A3 /* Project object */;
+}
