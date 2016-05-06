@@ -15,7 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func startApplication() {
         session.delegate = self
-        visit(NSURL(string: "http://localhost:9292")!)
+        visit(NSURL(string: "http://localhost:3000")!)
     }
     
     func visit(URL: NSURL) {
